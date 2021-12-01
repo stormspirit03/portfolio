@@ -70,7 +70,7 @@ body{
 /* **********************************           middle div ****************************************************************************** */
 .middle-container{
    margin-top: 100px;
-   margin-bottom: 150px;
+   margin-bottom: 50px;
 }
 
 .dp{
@@ -94,11 +94,22 @@ body{
     width: 25%;
 }
 
+
+.skill-row1{
+    /* to centre all the box but add padding to top and bottom 100px */
+    margin: 30px auto 100px auto;  
+    /* to make it half the width */
+    width: 55%;
+    /* insted of centered text make it left aligned */
+    text-align: left;
+}
+
+
 .skill-row{
     /* to centre all the box but add padding to top and bottom 100px */
     margin: 100px auto 100px auto;  
     /* to make it half the width */
-    width: 50%;
+    width: 55%;
     /* insted of centered text make it left aligned */
     text-align: left;
 }
@@ -111,7 +122,7 @@ body{
 
 .h2{
     color: #66bfbf;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .p{
@@ -119,9 +130,21 @@ body{
     line-height: 1.7;
 }
 
+
+
+.li{
+    font-size: 1.2em;
+    line-height: 1.7;
+    
+}
+
+.contact-me{
+
+}
+
 .contact-msg{
     width:40%;
-    margin: 40px auto 60px;
+    margin: 0px auto 40px;
 }
 
 
@@ -161,20 +184,65 @@ body{
     padding: 50px 0 20px;
     
 }
-.footer-link{
-    color: #11999e;
+
+.footer-link-github{
+    color: #157579;
     /* to  keep gap between those 3 texts */
     margin: 10px 20px;
     /* to remove anchor tag underline */
     text-decoration: none;
     font-size: 1.5rem;
 }
-.footer-link:hover{
-    color: #eaf6f6;
+
+.footer-link-github:hover{
+    color: #3e4141;
 }
 
+.footer-link-blog{
+    color: #157579;
+    /* to  keep gap between those 3 texts */
+    margin: 10px 20px;
+    /* to remove anchor tag underline */
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.footer-link-blog:hover{
+    color: #d7dfdf;
+}
+
+
+.footer-link-linkedin{
+    color: #157579;
+    /* to  keep gap between those 3 texts */
+    margin: 10px 20px;
+    /* to remove anchor tag underline */
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.footer-link-linkedin:hover{
+    color: #1288d6;
+}
+
+.footer-link-tindog{
+    color: #157579;
+    /* to  keep gap between those 3 texts */
+    margin: 10px 20px;
+    /* to remove anchor tag underline */
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.footer-link-tindog:hover{
+    color: #bd3f3f;
+}
+
+
+
+
 .credit{
-    color: #eaf6f6;
+    color: rgb(19, 18, 18);
     font-size: 0.75rem;
     padding: 20px 0;
     
