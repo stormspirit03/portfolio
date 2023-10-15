@@ -83,6 +83,7 @@ body{
     /* float ::::::: can wrap imgae around txt vip note */
     /* and can use clear to skip float for perticular text , clear left or clear right  but appply clear on paragraph nd not image  */
     margin-right: 30px;
+    margin-bottom: 10px;
     float: left;
     border-radius: 100%;
     width: 25%;
